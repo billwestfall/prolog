@@ -1,4 +1,5 @@
-/* prolog tutorial 2.11 Chess queens challenge puzzle */
+/* prolog tutorial 2.11 Chess queens challenge puzzle 
+run as: solve(P). */
 
 perm([X|Y],Z) :- perm(Y,W), takeout(X,Z,W).   
 perm([],[]).
