@@ -4,6 +4,10 @@
 X = flowers
 X = mary.
 
+8 ?- likes(X,mary).
+X = john 
+X = paul.
+
 */
 
 
