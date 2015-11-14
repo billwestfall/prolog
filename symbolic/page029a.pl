@@ -1,4 +1,5 @@
-MacBook-Air:~ billw$ gprolog --consult-file /Users/billw/Documents/old/prolog/sym01/page029a.pl 
+/*
+MacBook-Air:~ billw$ gprolog --consult-file /Users/billw/Documents/old/prolog/sym01/page029a.pl
 GNU Prolog 1.4.4 (64 bits)
 Compiled Nov 13 2015, 19:00:39 with clang
 By Daniel Diaz
@@ -15,9 +16,15 @@ no
 X = old
 
 yes
-| ?- books(tempest,old,Y).    
+| ?- books(tempest,old,Y).
 
 Y = english
 
 yes
 | ?- 
+ */
+
+books(tempest,old,english).
+books(faust,old,non_english).
+books(harry_potter,non_old,english).
+books(little_prince,non_old,non_english).
