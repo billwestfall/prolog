@@ -1,3 +1,5 @@
+% run as consult('beers.pl').
+
 bottles(0):-!.
 bottles(X):-
     writef('%t bottles of beer on the wall \n',[X]),
