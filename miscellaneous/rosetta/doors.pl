@@ -4,6 +4,7 @@
 doors(0):-!.
 prize(0):-random(99).
 doors(X):-
+prize(Y):-
     X =:= Y ->
     writef('%t The door with the prize is \n',[X]),
     doors(XN).
