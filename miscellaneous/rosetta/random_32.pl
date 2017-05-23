@@ -3,4 +3,4 @@
 */
 
 random_between(0, 2147483647, X).
-writef('%t the random number is ',[X]).
+write(X).
